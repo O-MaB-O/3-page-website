@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.heading {
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .reviews {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .links {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    background-color: #e6e4e4;
+  }
+
+  .links a:hover{
+    color: grey;
+}
+
+.contact a:hover{
+    color: grey;
+}
+
+  #navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    background-color: #e6e4e4;
+}
+
+#navbar a:hover{
+    color: grey;
+}
+
+.img1 {
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.paragraph {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: nowrap; /* Allows items to wrap to the next line */
+    justify-content: space-between; /* Distributes space between and around items */
+    align-items: stretch; /* Stretch items to fill the container height */
+    padding: 10px; /* Adjust as necessary */
+    gap: 10px; /* Adjust as necessary */
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: calc(33.333% - 20px); /* Allows three items across */
+    box-sizing: border-box;
+    margin: 10px; /* Adjust the margin to create space between the items */
+    flex-grow: 0; /* Prevents the flex items from growing */
+}
+
+.image {
+    width: 100%; /* Makes the image responsive */
+    height: auto; /* Maintains the aspect ratio */
+    display: block; /* Ensures the image doesn't have extra space below */
+}
